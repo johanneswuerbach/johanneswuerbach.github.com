@@ -459,31 +459,6 @@ a, button {
 		margin: 0;
 		display: block;
 	}
-	
-	/* Animating the height of the navigation when the button is clicked */
-	
-	/* When JavaScript is disabled, we hide the menu */
-	.no-js .nav ul {
-		max-height: 30em;
-		overflow: hidden;
-	}
-	
-	/* When JavaScript is enabled, we hide the menu */
-	.js .nav ul {
-		max-height: 0em;
-		overflow: hidden;
-	}
-	
-	/* Displaying the menu when the user has clicked on the button*/
-	.js .nav .active + ul {		
-		max-height: 30em;
-		overflow: hidden;
-		-webkit-transition: max-height .4s;
-		-moz-transition: max-height .4s;
-		-o-transition: max-height .4s;
-		-ms-transition: max-height .4s;
-		transition: max-height .4s;
-	}
 
 	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
 	
