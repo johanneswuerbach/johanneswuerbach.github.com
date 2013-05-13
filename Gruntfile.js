@@ -229,6 +229,9 @@ module.exports = function (grunt) {
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/*'
                     ]
+                }, {
+                    src: "CNAME",
+                    dest: '<%= yeoman.dist %>/CNAME'
                 }]
             }
         },
