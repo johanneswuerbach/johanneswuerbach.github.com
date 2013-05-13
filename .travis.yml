@@ -1,0 +1,11 @@
+---
+language: node_js
+node_js:
+- '0.8'
+env:
+  global:
+  - secure: |-
+      MHo0CEpSoHYkbrTLE4TBaYWUS48fLaPtgDjRhOuvSH/eWI+hpKmMKHZadrov
+      fb0inn5Gw8uHzTAoaO3sbFP/APxiPKRi0QraznYlEwEgZRmpUULhFGA1bKq8
+      EGq2KJiRko2drYAU5Amvmm89PUq6dmtAFjttJMQ7A7pVIuB+9TQ=
+after_success: ./scripts/update-gh-pages.sh
