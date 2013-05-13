@@ -18,6 +18,6 @@ cd $TARGET_BRANCH
 cp -Rf $HOME/dist/* .
 #add, commit and push files
 git add -f .
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to $TARGET_BRANCH"
+git commit -m "[ci skip] Travis build $TRAVIS_BUILD_NUMBER pushed to $TARGET_BRANCH"
 git push -fq origin ${TARGET_BRANCH} > /dev/null
 echo -e "Done magic with dist\n"
